@@ -41,6 +41,7 @@ public class stepDefinition {
 
     @Then("The I get directed to the home page")
     public void the_i_get_directed_to_the_home_page() {
+        driver.findElement(By.xpath("//*[@id=\"header_container\"]/div[1]/div[2]")).isDisplayed();
 
     }
 }
