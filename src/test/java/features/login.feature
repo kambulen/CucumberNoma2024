@@ -5,7 +5,7 @@ Feature: Login
     And I enter the correct username <username>
     And I enter the correct password <password>
     When I click on the login button
-    Then The I get directed to the home page
+    Then I get directed to the home page
     Examples:
       | username                | password     |
       | standard_user           | secret_sauce |
