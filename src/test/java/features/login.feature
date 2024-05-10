@@ -7,5 +7,7 @@ Feature: Login
     When I click on the login button
     Then The I get directed to the home page
     Examples:
-      | username      | password     |
-      | standard_user | secret_sauce |
+      | username                | password     |
+      | standard_user           | secret_sauce |
+      | problem_user            | secret_sauce |
+      | performance_glitch_user | secret_sauce |
