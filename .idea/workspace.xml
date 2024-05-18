@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="Added the additional steps testing for 3 users now.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/test.java" afterDir="false" />
+    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="Created folder structure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/BrowserFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Basiclogin.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BasicRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/stepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BasicsstepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helpers/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +66,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Automation/SauceDemo2ndGroup2024",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Helpers" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.BasicRunner">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -180,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716052834686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created folder structure">
+      <option name="closed" value="true" />
+      <created>1716054705030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716054705030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="   Then I get directed to the home page" />
     <MESSAGE value="Added the additional steps testing for 3 users now." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the additional steps testing for 3 users now." />
+    <MESSAGE value="Created folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created folder structure" />
   </component>
 </project>
