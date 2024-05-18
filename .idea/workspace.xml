@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="   Then I get directed to the home page">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="Added the additional steps testing for 3 users now." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,18 +14,15 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Noma-WIP" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;kambulen&quot;
-  }
-}</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kambulen/CucumberNoma2024.git&quot;,
@@ -90,6 +85,7 @@
       <list>
         <item itemvalue="Cucumber Java.Feature: login" />
         <item itemvalue="Cucumber Java.Feature: login" />
+        <item itemvalue="Cucumber Java.Feature: login" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715338181247</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added the additional steps testing for 3 users now.">
+      <option name="closed" value="true" />
+      <created>1716052359691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716052359691</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,8 +137,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added the additional steps testing for 3 users now." />
     <MESSAGE value="   Then I get directed to the home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="   Then I get directed to the home page" />
+    <MESSAGE value="Added the additional steps testing for 3 users now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the additional steps testing for 3 users now." />
   </component>
 </project>
