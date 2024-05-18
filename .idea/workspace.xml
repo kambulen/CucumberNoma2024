@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="Created folder structure">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/BrowserFactory.java" afterDir="false" />
+    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="Created a code to start a BrowserFactory">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Helpers/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +67,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Automation/SauceDemo2ndGroup2024",
+    "last_opened_file_path": "C:/Automation/CucumberNoma2024/src/test/java/Pages",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\CucumberNoma2024\src\test\java\Pages" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Helpers" />
     </key>
@@ -191,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716054705030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created a code to start a BrowserFactory">
+      <option name="closed" value="true" />
+      <created>1716055482979</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716055482979</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +221,7 @@
     <MESSAGE value="   Then I get directed to the home page" />
     <MESSAGE value="Added the additional steps testing for 3 users now." />
     <MESSAGE value="Created folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created folder structure" />
+    <MESSAGE value="Created a code to start a BrowserFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a code to start a BrowserFactory" />
   </component>
 </project>
