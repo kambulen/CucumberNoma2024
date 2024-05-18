@@ -1,5 +1,6 @@
 package steps;
 
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -43,5 +44,9 @@ public class stepDefinition {
     public void the_i_get_directed_to_the_home_page() {
         driver.findElement(By.xpath("//*[@id=\"header_container\"]/div[1]/div[2]")).isDisplayed();
 
+    }
+    @After
+    public void closeBrowser (){
+        driver.quit();
     }
 }

@@ -8,6 +8,6 @@ Feature: Login
     Then I get directed to the home page
     Examples:
       | username                | password     |
-      | standard_user           | secret_sauce |
+      | standard_user          | secret_sauce |
       | problem_user            | secret_sauce |
       | performance_glitch_user | secret_sauce |
