@@ -35,7 +35,11 @@ public class StepDefinition extends Base {
     public void the_i_get_directed_to_the_home_page() {
         homePage.verifyUserIsLoggedIn();
 
+    }
 
+    @After
+    public void closeBrowser() {
+        driver.quit();
     }
 
 }

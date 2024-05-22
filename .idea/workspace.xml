@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="Moved classes to their own package">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/runner.java" afterDir="false" />
+    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="Added the dependency extent Report&#10;Updated the step defintion class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/Basiclogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runners/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/StepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,6 +69,7 @@
     "JUnit.TestRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.runner.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Automation/CucumberNoma2024/src/test/java/Pages",
@@ -88,7 +89,7 @@
       <recent name="Helpers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.runner">
     <configuration name="Scenario: As a user I want to login and verify if the login is successful" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Login.feature" />
@@ -122,8 +123,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="runner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CucumberNoma" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.runner" />
         <item itemvalue="Cucumber Java.Scenario: As a user I want to login and verify if the login is successful" />
       </list>
     </recent_temporary>
@@ -209,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716299159632</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added the dependency extent Report&#10;Updated the step defintion class">
+      <option name="closed" value="true" />
+      <created>1716301908602</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716301908602</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +257,7 @@
     <MESSAGE value="Created a code to start a BrowserFactory" />
     <MESSAGE value="Created the Base class" />
     <MESSAGE value="Moved classes to their own package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved classes to their own package" />
+    <MESSAGE value="Added the dependency extent Report&#10;Updated the step defintion class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the dependency extent Report&#10;Updated the step defintion class" />
   </component>
 </project>
