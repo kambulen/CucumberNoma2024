@@ -1,3 +1,4 @@
+@Regression,@Login
 Feature: Login
 
   Scenario Outline: As a user I want to login and verify if the login is successful
