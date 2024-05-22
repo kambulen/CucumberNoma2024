@@ -1,10 +1,13 @@
 package steps;
 
 import io.cucumber.java.After;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 
 public class StepDefinition extends Base {
 
@@ -34,6 +37,14 @@ public class StepDefinition extends Base {
     @Then("I get directed to the home page")
     public void the_i_get_directed_to_the_home_page() {
         homePage.verifyUserIsLoggedIn();
+
+    }
+    @After
+    public void addScreenshot(Scenario scenario){
+        if (scenario.isFailed()){
+            byte[] screenshot=((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot,"image/png","image");
+        }
 
     }
 
