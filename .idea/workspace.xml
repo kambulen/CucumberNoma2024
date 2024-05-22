@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="Added the extent properties and cucumber properties for the report.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="2ca60c56-c2fd-46fa-bbee-b1cd52598c0e" name="Changes" comment="Changed yml file to not build" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +258,31 @@
       <option name="project" value="LOCAL" />
       <updated>1716385743647</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="git ignored the test output folder">
+      <option name="closed" value="true" />
+      <created>1716385933092</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716385933092</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changed the output Report name to project name">
+      <option name="closed" value="true" />
+      <created>1716386032532</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716386032532</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Changed yml file to not build">
+      <option name="closed" value="true" />
+      <created>1716386191672</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716386191672</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +309,9 @@
     <MESSAGE value="added the afterStep method to take a screenshot on a failure" />
     <MESSAGE value="Updated the branch name of the .yml file to stop building automatically for now." />
     <MESSAGE value="Added the extent properties and cucumber properties for the report." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the extent properties and cucumber properties for the report." />
+    <MESSAGE value="git ignored the test output folder" />
+    <MESSAGE value="Changed the output Report name to project name" />
+    <MESSAGE value="Changed yml file to not build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed yml file to not build" />
   </component>
 </project>
